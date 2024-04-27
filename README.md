@@ -28,7 +28,7 @@ In this repo, I'll try to talk about Git and Github
 6. Git offers features like branching, merging, and distributed workflows.
 7. These features make it powerful and flexible for small and large-scale development projects.
 
-- There are many different programs used to implement versionn control, such as:
+- There are many different programs used to implement version control, such as:
 1. CVS.
 2. SVN.
 3. Perforce.
