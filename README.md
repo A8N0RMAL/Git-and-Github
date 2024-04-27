@@ -35,9 +35,11 @@ In this repo, I'll try to talk about Git and Github
 4. Bazaar.
 
 ---
-- Git vs. Github:
+##### Git vs. Github:
 - What is the difference between Git vs. Github?
 - Git : Version control, which manages changes related to code and files within the project, it manages code and file changes locally.
 - Github : A cloud-based platform, allows for managing and organizing files (Git Repos) and facilitates sharing and editing projects from any device.
+  
 ![image](https://github.com/A8N0RMAL/Gita-and-Github/assets/119806250/101ec355-de13-4f84-8398-0bbfe9cb0495)
+
 ---
