@@ -101,5 +101,50 @@ In this repo, I'll try to talk about Git and Github
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/62fecfd6-0881-4391-adfd-971941f4ca8d)
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/1669c364-9583-446a-8f6b-0e3f7b1976c1)
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/4de7e43c-f715-4db6-8d97-c1e6201236b3)
+---
+- What is git log?
+- "Git log" is a command used to display the Git commit history in a repository.
+- It lists all commits in the current branch.
+- This command displays information such as the commit hash, author, date, and commit message, for every commit in the repository.
+- Git log can be used to understand the repository's history and analyze its evolution generally.
+- Moreover, it can be used as a tool to locate and review errors.
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/06206f5f-20ff-4182-a1f6-8b3347b01c95)
+---
+- What is .gitignore file?
+- When sharing your code with others, there are often files or parts of your project, you do not want to share.
+- Examples:
+1. log files
+2. temporary files
+3. hidden files
+4. personal files, etc.
+- Git can specify which files or parts of your project should be ignored by Git using a .gitignore file.
+- Git can specify which files or parts of your project should be ignored by Git using a .gitignore file.
+- The '.gitignore' file is created within the project's working directory and contains a list of files and directories that should be ignored when tracking changes in the project using Git.
+- When you create a new file or directory within the working directory, Git will include it when you initialize a repository.
+- However, there may be files or directories that Git should not track changes for using unnecessary or unwanted files, such as configuration files or files containing sensitive or temporary information.
+- The ".gitignore" file can be used to instruct Git to ignore these files, so they are not tracked within the history logs and versions.
+#### Create .gitignore
+- To create a .gitignore file, go to the root of your local Git, and create it:
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/7fab6eb6-3ba7-4d27-baa6-60366c1fe009)
+- Now open the file using a text editor.
+- We are just going to add two simple rules:
+- Ignore any files with the .log extension
+- Ignore everything in any directory named temp
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/ba1dc849-b064-4868-a5c9-53dcc0ea073e)
+- Now all .log files and anything in temp folders will be ignored by Git.
+- Note: In this case, we use a single .gitignore which applies to the entire repository.
+- It is also possible to have additional .gitignore files in subdirectories. These only apply to files or folders within that directory.
+#### Rules for .gitignore
+- Here are the general rules for matching patterns in .gitignore files:
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/8e53ff34-5ae4-4bd7-84b1-c08f2e45fd21)
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/b31fbcf5-6460-461b-b810-cd1ba3f18097)
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/a3f38153-8258-4cba-9adf-d9bc5eafa2c7)
+#### Local and Personal Git Ignore Rules
+- It is also possible to ignore files or folders but not show it in the distributed .gitignore file.
+- These kinds of ignores are specified in the .git/info/exclude file. It works the same way as .gitignore but are not shown to anyone else.
+- Here are some examples of .gitignore:
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/3899c127-8e35-48f9-bb2b-d476e931d988)
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/9dd1fb0c-9dfd-44fe-8abd-a26f36685de8)
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/d182d2a8-f188-469d-8c47-145a09ad1374)
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/c0a0eda5-6c70-44aa-b0af-1c01be2f2ab8)
 ---
