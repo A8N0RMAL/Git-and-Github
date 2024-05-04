@@ -1,5 +1,6 @@
 # Git-and-Github
 In this repo, I'll try to talk about Git and Github
+![git-vs-github](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/a1024356-895b-4b2d-9f30-6cb4781ec21e)
 
 ---
 ### What are we gonna learn through this course:
