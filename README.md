@@ -118,7 +118,6 @@ In this repo, I'll try to talk about Git and Github
 3. hidden files
 4. personal files, etc.
 - Git can specify which files or parts of your project should be ignored by Git using a .gitignore file.
-- Git can specify which files or parts of your project should be ignored by Git using a .gitignore file.
 - The '.gitignore' file is created within the project's working directory and contains a list of files and directories that should be ignored when tracking changes in the project using Git.
 - When you create a new file or directory within the working directory, Git will include it when you initialize a repository.
 - However, there may be files or directories that Git should not track changes for using unnecessary or unwanted files, such as configuration files or files containing sensitive or temporary information.
