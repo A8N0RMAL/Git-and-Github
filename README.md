@@ -1,4 +1,4 @@
-![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/b687989b-5c6e-41f1-940c-e8855b0513fe)# Git-and-Github
+# Git-and-Github
 In this repo, I'll try to talk about Git and Github
 ![git-vs-github](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/a1024356-895b-4b2d-9f30-6cb4781ec21e)
 
