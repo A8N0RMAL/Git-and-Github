@@ -1,4 +1,4 @@
-# Git-and-Github
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/b687989b-5c6e-41f1-940c-e8855b0513fe)# Git-and-Github
 In this repo, I'll try to talk about Git and Github
 ![git-vs-github](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/a1024356-895b-4b2d-9f30-6cb4781ec21e)
 
@@ -321,4 +321,25 @@ In this repo, I'll try to talk about Git and Github
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/f7a7765c-76c9-495e-b8fe-b16afcb84361)
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/7b0a7385-d3c3-49f5-9dae-84eeab8c6a93)
 ![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/dace61f6-0a4d-47ec-b887-1c95ea934ca3)
+---
+#### Let's take a look at Branch Visualization:
+- Shall we get our hand dirty ?
+- Visit this site -> https://learngitbranching.js.org/
+- This is our site before making anything:
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/0fbde0f5-cc2a-4f73-8fc7-d2de38a3b92c)
+- Let's add some commits for main
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/4d11a08a-b772-48e4-9921-3b4bcf84ad8d)
+- make a new branch called file-edit
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/7afbf903-0c7d-4b19-baf7-fbd3810f3a9e)
+- Now u cannot make changes on file-edit, so we can use the command git checkout to move to file-edit branch and make wahtever we want.
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/5dd6841e-e772-4c0b-8600-5197245a4439)
+- Now u can see the asterik is on the branck called file-edit
+- add some commits for this branch
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/bead15a4-7ec0-4a22-9a55-d800556bf943)
+- Now u can see that the changes don't affect the main project, Only the file-edit branch can affected by them.
+- If u wanna go back to the main, just use git checkout place(main) in this case.
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/889b5170-3a92-479f-b5a3-d856be96ca42)
+- Now we're on the main, let's make a new branch called file-down and move to it using git checkout file-down command and make some commits, here is the result.
+![image](https://github.com/A8N0RMAL/Git-and-Github/assets/119806250/e362cce5-711a-480f-9d91-e28d370f6a44)
+- As we can see, Changes don't affect the main project, Each branch on its own.
 ---
